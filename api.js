@@ -1,5 +1,5 @@
 console.log('INFINITY TEAM API ');
-function getData(a)
+function getData()
 {
     url="https://reqres.in/api/users?page=1";
     fetch(url).then((response)=>{
